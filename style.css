@@ -25,13 +25,13 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: regular;
     justify-content: space-evenly;
-    font-size: 27px;
+    font-size: 24px;
     line-height: 31px;
     line-height: 100%;
     fill: solid;
     vertical-align: top;
     color: #555555;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 350px;
 
 }
@@ -346,7 +346,7 @@
 }
 
 #jaden p {
-    font-family: nunito;
+    font-family: ubuntu;
     font-size: 16px;
     color: #000;
     width: 363px;
@@ -361,7 +361,7 @@
 }
 
 #whoopi p {
-    font-family: nunito;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     color: #000;
     width: 363px;
@@ -376,7 +376,7 @@
 }
 
 #janes p {
-    font-family: nunito;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     color: #000;
     width: 363px;
@@ -537,17 +537,3 @@ a {
 
 }
 
-@media (max-width: 768px) {
-    html {
-      font-size: 16px + 2 ((100vw - 360 px) / 768px);
-    }
-  }
-  @media (min-width: 769px) {
-    html {
-      font-size: 14px + 10 * ((100vw- 769px) / 2048px);
-    }
-  }
-  html {
-    font-size: 16px;
-    
-  }

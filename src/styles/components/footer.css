@@ -59,18 +59,3 @@ footer {
    text-decoration: none;
 
 }
-
-@media (max-width: 768px) {
-  html {
-    font-size: 16px + 2 ((100vw - 360 px) / 768px);
-  }
-}
-@media (min-width: 769px) {
-  html {
-    font-size: 14px + 10 * ((100vw- 769px) / 2048px);
-  }
-}
-html {
-  font-size: 12px;
-  width: 100%;
-}

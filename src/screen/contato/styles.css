@@ -1,0 +1,83 @@
+#total-center {
+    width: 1000px;
+    height: 480px;
+    margin-left: 250px;
+    margin-bottom: 150px;
+}
+
+#contato {
+    width: 526px;
+    height: 480px;
+    margin-bottom: 50px;
+
+}
+
+#contato h1 {
+    color: rgba(255, 64, 129, 1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+
+#nomeid {
+    width: 400px;
+    height: 32px;
+    top: 90px;
+    border-radius: 7px;
+    color: rgba(104, 104, 104, 1);
+    margin-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding-left: 14px;
+    padding-top: 4px;
+    
+}
+
+#emailid {
+    width: 400px;
+    height: 32px;
+    top: 137px;
+    border-radius: 7px;
+    color: rgba(104, 104, 104, 1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding-left: 14px;
+    padding-top: 4px;
+    margin-bottom: -25px;
+}
+
+#mensagem {
+    width: 400px;
+    height: 193px;
+    border-radius: 7px;
+    font-size: 16px;
+    color: rgba(104, 104, 104, 1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+    padding-left: 14px;
+}
+
+#enviar {
+    background-color: rgba(255, 64, 129, 1);
+    border-radius: 50px;
+    border-color: rgba(255, 64, 129, 1);
+    width: 108px;
+    height: 32px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFF;
+    margin-top: 5px;
+    
+}
+#enviar:hover {
+    transition: 0.4s;  
+    color:indigo;
+  }
+
+#imagem img {
+    display: flex;
+    width: 444px;
+    height: 444px;
+    margin-left: 785px;
+    margin-top: -600px;    
+    margin-bottom: 50px;
+}
