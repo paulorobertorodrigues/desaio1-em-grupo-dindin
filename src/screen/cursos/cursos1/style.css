@@ -19,6 +19,7 @@ p {
     top: 385px;
     height: 381px;
     margin-left: 200px;
+    display: flex;
 }
 
 
@@ -27,9 +28,4 @@ p {
     font-size: var(--fonte-titulo-2);
     width: 512px;
     left: 545px;
-}
-
-#investimento-iniciantes {
-    display: flex;
-    
 }
