@@ -10,9 +10,10 @@
     --cor-titulo-rosa: #FF4081;
     --cor-subtitulo: #555555;
     --cor-titulo-verde: #009688;
+    --cor-texto: #000;
     /*FONTES*/
     --fonte-titulo-1: 60px;
-    --fonte-titulo-2: 35px;
+    --fonte-titulo-2: 40px;
     --fonte-subtitulo: 20px;
     --fonte-texto: 18px;
 }
