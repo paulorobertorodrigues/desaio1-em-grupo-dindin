@@ -129,7 +129,7 @@
         top: 191px;
         margin-left: 50px;
         border-radius: 62px;
-        margin-top: 10px;
+        margin-top: -10px;
         background-color: rgba(255, 64, 129, 1);
 }
 
@@ -138,6 +138,7 @@
     height: 20.27px;
     top: 1406px;
     left: 193px;
+    color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: regular;
     text-decoration: none;
@@ -147,7 +148,6 @@
     align-items:center;
     vertical-align: top;
     fill: solid;
-    color: #FFFF;
 }
 
 #poupando-e-rendendo {
@@ -203,7 +203,7 @@
     height: 51px;
     top: 1389px;
     left: 623px;
-    margin-top: 10px;
+    margin-top: -10px;
     margin-left: 25px;
     border-radius: 62px;
     background-color: rgba(255, 64, 129, 1);
@@ -215,6 +215,7 @@
     height: 20.27px;
     top: 1404px;
     left: 632px;
+    color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: regular;
     text-decoration: none;
@@ -224,7 +225,6 @@
     align-items:center;
     vertical-align: top;
     fill: solid;
-    color: #FFFF;
 }
 
 
