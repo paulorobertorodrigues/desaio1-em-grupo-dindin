@@ -3,7 +3,9 @@ body {
 }
 
 
-
+#titulo {
+    margin-bottom: 70px;
+}
 #titulo h1 {
     color:var(--cor-titulo-rosa);
     font-size: var(--fonte-titulo-1);
@@ -22,49 +24,16 @@ body {
     display: flex;
     justify-content:center;
     align-items:center;
-    margin-left: -300px;
   
 }
 
-#linha-separacao-1 {
-    position: absolute;
-    height: 5px;
-    width: 1244px;
-    left: 170px;
-    top: 760px;
-
+#investimento-iniciantes img {
+    width: 24,3rem;
+    height: 24,3rem;
+    
 }
 
-#poupando-rendendo  {
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    margin-left: -300px;
-}
-
-#linha-separacao-2 {
-    position: absolute;
-    height: 5px;
-    width: 1244px;
-    left: 170px;
-    top: 1240px;
-
-}
-
-#independencia-financeira  {
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    margin-left: -300px;
-}
-
-#imagem {
-    width: 390px;
-    height: 390px;
-    margin-left: 150px;
-}
-
-#texto {
+#texto-1 {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -74,20 +43,22 @@ body {
     
 }
 
-#texto h2 {
+#texto-1 h2 {
     color:var(--cor-titulo-rosa);
     font-size: var(--fonte-titulo-2);
+    margin-bottom: 40px;
 }
 
-#texto p {
+#texto-1 p {
     color: var(--cor-texto);
     font-size: var(--fonte-texto);
     word-wrap: break-word;
     text-align: justify;
+    margin-bottom: 40px;
     
 }
 
-#texto button {
+#texto-1 button {
     border-radius: 62px;
     background-color: var(--cor-de-fundo);
     width: 233px;
@@ -97,9 +68,181 @@ body {
     border-color:transparent;
 }
 
-#texto a {
+#texto-1 a {
     color: #FFFF;
     text-decoration: none;
     font-size: 20px;
 }
 
+#linha-separacao-1 {
+    position: relative;
+    height: 50px;
+    width: 100vw;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+#linha-separacao-1 img {
+    position: absolute;
+    left: 12%;
+    top: 50%;
+}
+
+#poupando-rendendo  {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#poupando-rendendo img {
+    width: 24,3rem;
+    height: 24,3rem;
+    
+}
+
+#texto-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 800px;
+    height: 390px;
+    margin-left: 100px;
+    
+}
+
+#texto-2 h2 {
+    color:var(--cor-titulo-rosa);
+    font-size: var(--fonte-titulo-2);
+    margin-bottom: 40px;
+}
+
+#texto-2 p {
+    color: var(--cor-texto);
+    font-size: var(--fonte-texto);
+    word-wrap: break-word;
+    text-align: justify;
+    margin-bottom: 40px;
+    
+}
+
+#texto-2 button {
+    border-radius: 62px;
+    background-color: var(--cor-de-fundo);
+    width: 233px;
+    height: 51px;
+    margin-top: 10px;
+    margin-left: -10px;
+    border-color:transparent;
+}
+
+#texto-2 a {
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#linha-separacao-2 {
+    position: relative;
+    height: 50px;
+    width: 100vw;
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+}
+#linha-separacao-2 img {
+    position: absolute;
+    left: 12%;
+    top: 50%;
+}
+
+#independencia-financeira  {
+    margin-bottom: 180px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#independencia-financeira img {
+    width: 24,3rem;
+    height: 24,3rem;
+    
+}
+
+#texto-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 800px;
+    height: 390px;
+    margin-left: 100px;
+    
+}
+
+#texto-3 h2 {
+    color:var(--cor-titulo-rosa);
+    font-size: var(--fonte-titulo-2);
+    margin-bottom: 40px;
+}
+
+#texto-3 p {
+    color: var(--cor-texto);
+    font-size: var(--fonte-texto);
+    word-wrap: break-word;
+    text-align: justify;
+    margin-bottom: 40px;
+    
+}
+
+#texto-3 button {
+    border-radius: 62px;
+    background-color: var(--cor-de-fundo);
+    width: 233px;
+    height: 51px;
+    margin-top: 10px;
+    margin-left: -10px;
+    border-color:transparent;
+}
+
+#texto-3 a {
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media (max-width: 480px) {
+    #titulo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    #titulo h1 {
+        margin-left: 0;
+    }
+    #titulo p {
+        margin-left: 0;
+    }
+    #investimento-iniciantes {
+        flex-direction: column;
+        align-items: center;
+        background-color: aqua;
+        
+    }
+    #texto-1 {
+        width: 100vw;
+        margin-left: 0;
+    }
+    #texto-1 h2 {
+        text-align: center;
+        
+    }
+    #texto-1 button {
+        margin-left: 0;
+        margin-top: 0;
+
+    }
+
+
+}
