@@ -74,3 +74,19 @@ footer {
     display: none;
   }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  footer img {
+    margin-left: auto;
+    
+  }
+  footer nav{
+    margin-right: auto;
+  }
+  #ser-prof {
+    display: none;
+  }
+
+
+
+}

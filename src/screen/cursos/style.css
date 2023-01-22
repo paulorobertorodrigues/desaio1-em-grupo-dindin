@@ -206,7 +206,7 @@ body {
     font-size: 20px;
 }
 
-@media (max-width: 480px) { 
+@media only screen and (max-width: 480px) { 
     #titulo {
         display: flex;
         align-items: center;
@@ -226,6 +226,82 @@ body {
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
+    }
+    #texto-1 {
+        width: 100vw;
+        margin-left: 0;
+    }
+    #texto-1 h2 {
+        text-align: center;
+        
+    }
+
+    #texto-1 button {
+        margin: auto;
+    }
+    #linha-separacao-1 img {
+        left: -50%;    
+    }
+    #poupando-rendendo {
+        flex-direction: column;
+        align-items: center;
+    }
+    #texto-2 {
+        width: 100vw;
+        margin-left: 0;
+    }
+    #texto-2 h2 {
+        text-align: center;
+        
+    }
+    #texto-2 button {
+        margin: auto;
+    }
+    #linha-separacao-2 img {
+        top: 100%;
+        left: -50%;    
+    }
+    #independencia-financeira {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    #texto-3 {
+        width: 100vw;
+        margin-left: 0;
+    }
+    #texto-3 h2 {
+        text-align: center;
+        
+    }
+    #texto-3 button {
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #titulo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        
+        
+    }
+    #titulo h1 {
+        margin-left: 0;
+    }
+    #titulo p {
+        margin-left: 0;
+    }
+    #investimento-iniciantes {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin-left: 0;
+        margin-right: auto;
     }
     #texto-1 {
         width: 100vw;

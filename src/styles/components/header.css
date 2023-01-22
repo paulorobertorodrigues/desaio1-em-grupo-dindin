@@ -1,5 +1,5 @@
 header {
-    background-color: rgba(46, 148, 138, 1);    
+    background-color: var(--cor-de-fundo);    
     display: flex;  
     justify-content: space-around;
     align-items:center;
@@ -29,7 +29,7 @@ header nav a {
   
   header nav a:hover {
     transition: 0.4s;  
-    color:indigo;
+    color:var(--cor-titulo-rosa);
   }
 
   @media (max-width: 480px) {
@@ -51,8 +51,33 @@ header nav a {
       margin-top: 50px;
     }
     header nav a{
-      font-size: 1,3rem;
-      margin-left: 30px;
+      font-size: 1rem;
+      margin-left: 7px;
+      margin-right: 7px;
     }
 
   }
+
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    header{
+      position: relative;
+    }
+    
+    header img{
+      position:absolute;
+      top: -40px;
+      width: 10rem;
+      left: 30vw;
+  }
+  header nav {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  header nav a{
+    font-size: 1,3rem;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+}
