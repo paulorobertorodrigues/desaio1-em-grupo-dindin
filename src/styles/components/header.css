@@ -32,3 +32,13 @@ header nav a {
     color:indigo;
   }
 
+  @media (max-width: 480px) {
+    header img{
+      
+      margin-left: 10px;
+    }
+    header nav {
+      margin-left: -75px;
+    }
+
+  }

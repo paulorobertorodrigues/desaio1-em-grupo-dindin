@@ -59,3 +59,18 @@ footer {
    text-decoration: none;
 
 }
+
+@media (max-width: 480px) {
+  footer img {
+    margin-left: 130px;
+  }
+  
+  footer nav{
+    margin-left: -90px;
+    margin-right: 40px;
+  }
+  
+  #ser-prof {
+    display: none;
+  }
+}
