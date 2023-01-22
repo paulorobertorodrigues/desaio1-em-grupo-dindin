@@ -62,12 +62,12 @@ footer {
 
 @media (max-width: 480px) {
   footer img {
-    margin-left: 130px;
+    margin-left:auto;
+    margin-right: auto;
   }
   
   footer nav{
-    margin-left: -90px;
-    margin-right: 40px;
+    display: none;
   }
   
   #ser-prof {

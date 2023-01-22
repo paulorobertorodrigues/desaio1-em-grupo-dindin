@@ -214,6 +214,7 @@ body {
         text-align: center;
         margin: auto;
         
+        
     }
     #titulo h1 {
         margin-left: 0;
@@ -263,6 +264,7 @@ body {
     #independencia-financeira {
         flex-direction: column;
         align-items: center;
+        margin-top: 40px;
     }
     #texto-3 {
         width: 100vw;
