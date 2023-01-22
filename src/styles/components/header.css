@@ -1,5 +1,5 @@
 header {
-    background-color: var(--cor-de-fundo);    
+    background-color: #2E948A;    
     display: flex;  
     justify-content: space-around;
     align-items:center;
@@ -29,7 +29,7 @@ header nav a {
   
   header nav a:hover {
     transition: 0.4s;  
-    color:var(--cor-titulo-rosa);
+    color:#FF4081
   }
 
   @media (max-width: 480px) {
